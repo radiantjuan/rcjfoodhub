@@ -1,0 +1,41 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//font awesome
+@import './fontawesome/fontawesome.scss';
+@import './fontawesome/regular.scss';
+@import './fontawesome/brands.scss';
+@import './fontawesome/solid.scss';
+@import './fontawesome/v4-shims.scss';
+
+.announcement-container {
+    .card {
+        flex-direction: row;
+        align-items: center;
+        padding-left: 16px;
+        padding-right: 16px;
+        height: 100%;
+        .card-title {
+            font-weight: bold;
+        }
+
+        img {
+            width: 20%;
+        }
+    }
+}
+
+#announcementModal {
+    .modal-title {
+        font-weight: bold;
+    }
+    img {
+        width: 100%;
+    }
+}

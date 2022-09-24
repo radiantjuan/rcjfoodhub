@@ -1,0 +1,14 @@
+export const CHANGE_CATEGORY = 'CHANGE_CATEGORY'
+export const CHANGE_FRANCHISE_CATEGORY = 'CHANGE_FRANCHISE_CATEGORY';
+export const CLEAR_CATEGORY = 'CLEAR_CATEGORY';
+export const SEARCH_BY_SUPPLY_NAME = 'SEARCH_BY_SUPPLY_NAME';
+export const TOGGLE_MODAL = 'TOGGLE_MODAL';
+export const ADD_TO_CART = 'ADD_TO_CART';
+export const ADD_TO_CART_MOBILE = 'ADD_TO_CART_MOBILE';
+
+/////////////////////////////INIT ACTION TYPES//////////////////////////////
+export const INIT_SUPPLIES = 'INIT_SUPPLIES';
+export const INIT_CATEGORIES = 'INIT_CATEGORIES';
+export const INIT_CART_ITEMS = 'INIT_CART_ITEMS';
+export const INIT_CART_TOTAL = 'INIT_CART_TOTAL';
+export const INIT_PROMO_CODE = 'INIT_PROMO_CODE';

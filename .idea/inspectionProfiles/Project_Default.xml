@@ -1,0 +1,9 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="SassLintInspection" enabled="true" level="Code Stanards" enabled_by_default="true" />
+    <inspection_tool class="SassScssLintInspection" enabled="true" level="Code Stanards" enabled_by_default="true" />
+    <inspection_tool class="SassScssResolvedByNameOnly" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="StandardJS" enabled="true" level="WARNING" enabled_by_default="true" />
+  </profile>
+</component>

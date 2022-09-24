@@ -1,0 +1,15 @@
+.container_max_width {
+    width: 100%;
+}
+
+@media (min-width: 769px) {
+    .container_max_width {
+        width: 960px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .container_max_width {
+        width: 1200px;
+    }
+}

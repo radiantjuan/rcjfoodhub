@@ -1,0 +1,2 @@
+STEP 1: download the files you want to print and save it to pritables folder along with "print.bat"
+STEP 2: run "print.bat" - this will automatically print all the receipt within the folder of printables.

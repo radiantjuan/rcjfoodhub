@@ -1,0 +1,42 @@
+.supply_product_container {
+    height: calc(100vh - 155px);
+    overflow: auto;
+}
+
+.mobile_filter_btn_close {
+    position: absolute;
+    z-index: 10;
+    font-size: 1.5rem;
+    border-radius: 0px 6px 6px 0px;
+    padding: 4px 16px;
+    right: -55px;
+    top: 16px;
+}
+
+.mobile_cart_btn, .mobile_filter_btn {
+    font-size: 1.5rem;
+}
+
+.cart_count_indicator {
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    text-align: center;
+    font-size: 0.75rem;
+    border-radius: 50px;
+    top: 4px;
+    right: 20px;
+}
+
+
+.mobile_filter_container {
+    position: absolute;
+    z-index: 10;
+    width: 75%;
+    top: 75px;
+    @media (min-width: 1025px) {
+        position: initial;
+    }
+}

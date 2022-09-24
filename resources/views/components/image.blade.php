@@ -1,0 +1,1 @@
+<img src="{{ !empty($data) ? \Storage::url($data) : ''}}" alt="" style="width:32px;"/>
